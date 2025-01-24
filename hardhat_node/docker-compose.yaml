@@ -1,0 +1,6 @@
+services:
+  oasees_blockchain:
+      build: .
+      container_name: hardhat
+      ports:
+        - "8545:8545"
